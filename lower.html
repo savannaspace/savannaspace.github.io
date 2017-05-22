@@ -62,7 +62,7 @@
                         <li><a href="calendar.html">Calendar</a></li>
                         <li class="divider"></li>
                           <li><a href="kg.html">KG</a></li>
-                          <li><a href="lower.html">Lower School</a></li> 
+                          <li><a href="lower.html">Junior School</a></li> 
                           <li><a href="middle.html">Middle School</a></li> 
                           <li><a href="upper.html">Upper School</a></li>
                           <li class="divider"></li>
@@ -79,7 +79,9 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admissions<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="downloads.html">Downloads</a></li>
-                          <li><a href="downloads.html">Fees Structure</a></li>
+                          <li><a href="downloads.html">Clearance Form - <small> KG</small> </a></li>
+                          <li><a href="downloads.html"> Clearance Form -<small> Primary</small> </a></li>
+                          <li><a href="downloads.html"> Exit Interview</a></li>
                           <li class="divider"></li>
                           <li><a href="downloads.html">Request Tranfer</a></li>
                         </ul>
@@ -88,9 +90,7 @@
                        <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">School Life<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Term dates</a></li>
                           <li><a href="#">News and Events</a></li>
-                          <li><a href="projects.html">Projects</a></li>
                           <li class="divider"></li>
                           <li class="dropdown-header">Clubs and Societies</li>
                           <li><a href="#">Sports</a></li>
@@ -111,6 +111,7 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
+        <hr class="topper">
     </nav>
     
     <!-- Header -->
@@ -234,7 +235,7 @@
  {{#each teachers }}
     {{#each lower}}
     <div class="col-xs-6 col-md-2"> 
-     <div class="photo-thumbnail"  data-id="{{@index}}">
+     <div class="photo-thumbnail thumbnail"  data-id="{{@index}}">
         <img class="crop-img" src="{{src}}" alt=""/>   
          <div class="caption">
             <h4>{{title}}</h4>

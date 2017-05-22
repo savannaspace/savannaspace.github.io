@@ -4,11 +4,26 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top:100px;
+  padding-top:120px;
 
 }
-.video{
-  opacity: 12px;
+.photo-thumbnail-a{
+  height: 100px;
+  width: 100px;
+}
+hr.topper {
+  border: 0px;
+  margin-top: 0px;
+  height: 10px;
+  overflow: hidden;
+  background-image: -webkit-linear-gradient(top, #006400, #0000FF);
+  background-image: -moz-linear-gradient(bottom, #006400, #0000FF);
+  background-image: -ms-linear-gradient(bottom, #006400, #0000FF);
+  background-image: -o-linear-gradient(bottom, #006400, #0000FF);
+}
+.staff-img{
+  height: 200PX;
+  width: 300px;
 }
 
 
